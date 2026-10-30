@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://technovaitsolutions.netlify.app/</loc>
+    </url>
+
+    <url>
+        <loc>https://technovaitsolutions.netlify.app/Pages/about.html</loc>
+    </url>
+
+    <url>
+        <loc>https://technovaitsolutions.netlify.app/Pages/services.html</loc>
+    </url>
+
+    <url>
+        <loc>https://technovaitsolutions.netlify.app/Pages/portfolio.html</loc>
+    </url>
+
+    <url>
+        <loc>https://technovaitsolutions.netlify.app/Pages/contact.html</loc>
+    </url>
+
+    <url>
+        <loc>https://technovaitsolutions.netlify.app/Pages/enquiry.html</loc>
+    </url>
+
+</urlset>

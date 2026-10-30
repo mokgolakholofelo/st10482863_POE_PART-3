@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechNova IT Solutions provides professional IT services including website development, computer repairs, networking, cybersecurity, cloud solutions and IT consulting in South Africa.">
+    <meta name="keywords" content="IT Services, Website Development, Computer Repairs, Network Installation, Cybersecurity, Cloud Solutions, TechNova IT Solutions, South Africa">
+    <meta name="author" content="TechNova IT Solutions">
+
+    <title>TechNova IT Solutions | Service Enquiry</title>
+
+    <link rel="icon" type="image/png" href="../Assets/images/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>TechNova IT Solutions</h1>
+        <p>Your Trusted Technology Partner</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a> |
+        <a href="about.html">About Us</a> |
+        <a href="services.html">Services</a> |
+        <a href="portfolio.html">Portfolio</a> |
+        <a href="contact.html">Contact Us</a> |
+        <a href="enquiry.html">Enquiry</a>
+    </nav>
+
+    <main>
+
+        <section class="enquiry-section">
+
+            <h2>Service Enquiry</h2>
+
+            <p>
+                Complete the form below and one of our consultants will contact you
+                regarding your enquiry.
+            </p>
+
+            <form id="enquiryForm">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name">
+                <span class="error" id="nameError"></span>
+
+                <label for="enquiryEmail">Email Address</label>
+                <input type="email" id="enquiryEmail" name="enquiryEmail">
+                <span class="error" id="enquiryEmailError"></span>
+
+                <label for="enquiryPhone">Phone Number</label>
+                <input type="tel" id="enquiryPhone" name="enquiryPhone">
+                <span class="error" id="enquiryPhoneError"></span>
+
+                <label for="service">Select Service</label>
+
+                <select id="service" name="service">
+                    <option value="">-- Select a Service --</option>
+                    <option>Website Development</option>
+                    <option>Website Maintenance</option>
+                    <option>Computer Repairs</option>
+                    <option>Network Installation</option>
+                    <option>Cloud Solutions</option>
+                    <option>Cybersecurity</option>
+                    <option>IT Consulting</option>
+                    <option>Data Backup & Recovery</option>
+                </select>
+
+                <span class="error" id="serviceError"></span>
+
+                <label for="budget">Estimated Budget (R)</label>
+                <input type="number" id="budget" name="budget">
+                <span class="error" id="budgetError"></span>
+
+                <label for="contactMethod">Preferred Contact Method</label>
+
+                <select id="contactMethod" name="contactMethod">
+                    <option value="">-- Select Contact Method --</option>
+                    <option>Email</option>
+                    <option>Phone Call</option>
+                    <option>WhatsApp</option>
+                </select>
+
+                <label for="details">Additional Information</label>
+
+                <textarea
+                    id="details"
+                    name="details"
+                    rows="6"
+                    placeholder="Describe your project or enquiry..."
+                ></textarea>
+
+                <span class="error" id="detailsError"></span>
+
+                <button type="submit">Submit Enquiry</button>
+
+                <p id="successMessage" class="success"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechNova IT Solutions (Pty) Ltd. All Rights Reserved.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
